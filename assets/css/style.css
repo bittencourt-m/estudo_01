@@ -126,6 +126,7 @@ hr {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 18px;
+	margin-bottom: 13px;
 }
 
 /* ---------------------------- ABOUT US ---------------------------- */
@@ -168,3 +169,71 @@ hr {
 	.portifolioImages li:last-child {
 		padding-right: 0;
 	}
+
+.linkView {
+	background-color: #fe9b00;
+	position: relative;
+	color: black;
+	width: 62px;
+	height: 15px;
+	padding: 6px 0px 2px 7px;
+	margin: -26px 0px 6px 146px;
+}
+
+/* ---------------------------- BLOG UPDATES ---------------------------- */
+
+.sub2 {
+	font-size: 12px;
+	margin: 26px 0px 18px 0px;
+}
+
+.blogUpdates {
+	position: relative;
+	width: 661px;
+	height: 163px;
+}
+
+.conect {
+	position: relative;
+	margin: -185px 0 89px 767px;
+}
+
+.social {
+	margin-right: 14px;
+}
+
+/* ---------------------------- FOOTER ---------------------------- */
+
+footer {
+	background-color: #e2e2e2;
+	height: 101px;
+}
+
+.navFooter {
+	position: relative;
+	width: 389px;
+	height: 13px;
+	top: 33px;
+}
+
+	.navFooter ul li {
+		display: inline;
+	}
+
+		a {
+			color: black;
+		}
+			a:hover {
+				color: #fe9b00;
+			}
+
+.logoFooter {
+	float: right;
+	width: 119px;
+	height: 64px;
+}
+
+.copyrigth {
+	position: relative;
+	top: 53px;
+}
