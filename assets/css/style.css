@@ -52,7 +52,7 @@ body {
 	font: normal 0.75em Arial, sans-serif;
 }
 
-header, #mainContent, footer {
+header, #mainContent {
 	width: 960px;
 	margin: 0 auto;
 }
