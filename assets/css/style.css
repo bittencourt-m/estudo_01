@@ -66,14 +66,14 @@ p {
 	color: #5d5d5d;
 }
 
-a, a:visited  {
+a:link {
 	color: #fe9b00;
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
-	a:hover, a:active, a>.active {
+	a:hover, .active {
 		color: #000000;
 	}
 
@@ -130,6 +130,16 @@ hr {
 }
 
 /* ---------------------------- ABOUT US ---------------------------- */
+
+.iconArrow {
+	float: left;
+	margin: 5px 16px 0px 0px;
+}
+	
+	.view {
+		float: right;
+		margin: 2px 10px 0 0px;
+	}
 
 .aboutUs {
 	height: 270px;
@@ -211,6 +221,7 @@ footer {
 
 .navFooter {
 	position: relative;
+	margin-left: 424px;
 	width: 389px;
 	height: 13px;
 	top: 33px;
@@ -220,20 +231,20 @@ footer {
 		display: inline;
 	}
 
-		a {
+		.navFooter ul li a {
 			color: black;
+			text-transform: capitalize;
 		}
-			a:hover {
-				color: #fe9b00;
-			}
 
 .logoFooter {
 	float: right;
 	width: 119px;
 	height: 64px;
+	margin-right: 423px;
 }
 
 .copyrigth {
 	position: relative;
+	margin-left: 424px;
 	top: 53px;
 }
